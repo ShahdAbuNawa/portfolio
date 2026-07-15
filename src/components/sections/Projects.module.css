@@ -1,0 +1,49 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 36px;
+}
+
+.filterBtn {
+  font-size: var(--fs-sm);
+  font-family: var(--font-mono);
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+.filterBtn:hover { border-color: var(--border-strong); color: var(--text-primary); }
+.filterActive {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-bright));
+  color: #051327;
+  border-color: transparent;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+  margin-bottom: 64px;
+  align-items: start;
+}
+
+.moreHead h3 {
+  font-size: var(--fs-xl);
+  margin-bottom: 24px;
+}
+
+.moreGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.moreCard { padding: 22px; display: flex; flex-direction: column; gap: 10px; }
+.moreCard h4 { font-size: var(--fs-base); }
+.moreCard p { color: var(--text-secondary); font-size: var(--fs-sm); flex: 1; }
+.moreTechRow { display: flex; flex-wrap: wrap; gap: 6px; }
+.moreActions { display: flex; gap: 12px; color: var(--text-muted); }
+.moreActions a:hover { color: var(--accent-glow); }

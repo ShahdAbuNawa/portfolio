@@ -1,0 +1,15 @@
+.card {
+  background: linear-gradient(180deg, rgba(18, 58, 115, 0.28), rgba(13, 36, 72, 0.4));
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: var(--shadow-soft);
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hoverable:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft), var(--shadow-glow);
+}

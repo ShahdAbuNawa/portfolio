@@ -1,0 +1,25 @@
+.item { margin-bottom: 18px; }
+.item:last-child { margin-bottom: 0; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: var(--fs-sm);
+}
+
+.name { color: var(--text-primary); font-weight: 500; }
+.level { color: var(--text-muted); font-family: var(--font-mono); font-size: var(--fs-xs); }
+
+.track {
+  height: 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-glow));
+}

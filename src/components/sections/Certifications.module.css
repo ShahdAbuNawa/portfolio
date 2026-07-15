@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  padding: 20px 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.title { font-size: var(--fs-sm); font-weight: 600; margin-bottom: 4px; }
+.meta { font-size: var(--fs-xs); color: var(--text-muted); font-family: var(--font-mono); }

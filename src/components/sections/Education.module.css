@@ -1,0 +1,26 @@
+.card { padding: 32px; }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.degree { font-size: var(--fs-2xl); }
+.school { color: var(--accent-glow); margin-top: 6px; }
+.date { font-family: var(--font-mono); font-size: var(--fs-sm); color: var(--text-muted); }
+.honors { margin-top: 12px; color: var(--text-secondary); font-size: var(--fs-sm); }
+
+.courseHead {
+  margin-top: 28px;
+  margin-bottom: 14px;
+  font-size: var(--fs-sm);
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.courseRow { display: flex; flex-wrap: wrap; gap: 8px; }

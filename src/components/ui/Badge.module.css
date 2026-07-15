@@ -1,0 +1,23 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(79, 157, 255, 0.12);
+  border: 1px solid var(--border-subtle);
+  color: var(--accent-glow);
+  letter-spacing: 0.02em;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--fs-xs);
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+}

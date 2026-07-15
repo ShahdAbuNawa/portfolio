@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card { padding: 28px; }
+.title { font-size: var(--fs-lg); margin: 16px 0 10px; }
+.desc { color: var(--text-secondary); font-size: var(--fs-sm); }
+
+@media (max-width: 860px) {
+  .grid { grid-template-columns: 1fr; }
+}

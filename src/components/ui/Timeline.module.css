@@ -1,0 +1,50 @@
+.timeline {
+  position: relative;
+  padding-left: 32px;
+  border-left: 1px solid var(--border-subtle);
+}
+
+.item { position: relative; padding-bottom: 44px; }
+.item:last-child { padding-bottom: 0; }
+
+.dot {
+  position: absolute;
+  left: -37px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--bg-deep);
+  border: 2px solid var(--accent-glow);
+  box-shadow: 0 0 10px rgba(93, 174, 255, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.role { font-size: var(--fs-lg); }
+.company { color: var(--accent-glow); font-size: var(--fs-sm); margin-bottom: 4px; }
+.date { font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-muted); white-space: nowrap; }
+
+.techRow { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 12px; }
+
+.list { display: flex; flex-direction: column; gap: 8px; }
+.listItem {
+  display: flex;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+}
+.listItem::before {
+  content: '';
+  min-width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent-bright);
+  margin-top: 8px;
+}
