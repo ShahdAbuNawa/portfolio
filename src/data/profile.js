@@ -2,12 +2,12 @@ export const profile = {
   name: 'Shahd Abu Nawa',
   roles: ['Frontend Developer', 'Software Engineer', 'React Developer'],
   location: 'Bethlehem, Palestine',
-  remote: 'Remote-ready',
+  remote: '',
   email: 'shahd.abunawa@gmail.com',
   phone: '+972 56-8199167',
   links: {
-    linkedin: '#',
-    github: '#',
+    linkedin: 'https://www.linkedin.com/in/shahd-abu-nawa-352222327/',
+    github: 'https://github.com/ShahdAbuNawa',
     portfolio: '#',
   },
   tagline:

@@ -14,7 +14,7 @@
 .track {
   height: 6px;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(16, 32, 51, 0.06);
   overflow: hidden;
 }
 

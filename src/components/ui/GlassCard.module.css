@@ -1,5 +1,5 @@
 .card {
-  background: linear-gradient(180deg, rgba(18, 58, 115, 0.28), rgba(13, 36, 72, 0.4));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(228, 233, 239, 0.72));
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   backdrop-filter: blur(14px);

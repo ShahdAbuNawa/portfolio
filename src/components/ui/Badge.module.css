@@ -5,9 +5,9 @@
   font-size: var(--fs-xs);
   padding: 5px 12px;
   border-radius: 999px;
-  background: rgba(79, 157, 255, 0.12);
+  background: rgba(31, 91, 99, 0.10);
   border: 1px solid var(--border-subtle);
-  color: var(--accent-glow);
+  color: var(--accent-primary);
   letter-spacing: 0.02em;
 }
 
@@ -17,7 +17,7 @@
   font-size: var(--fs-xs);
   padding: 4px 10px;
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(16, 32, 51, 0.04);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
 }

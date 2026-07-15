@@ -17,18 +17,18 @@
 
 .primary {
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-bright));
-  color: #051327;
-  box-shadow: 0 8px 24px rgba(79, 157, 255, 0.28);
+  color: #FFFFFF;
+  box-shadow: 0 8px 24px rgba(31, 91, 99, 0.20);
 }
-.primary:hover { box-shadow: 0 12px 32px rgba(79, 157, 255, 0.4); }
+.primary:hover { box-shadow: 0 12px 32px rgba(31, 91, 99, 0.28); }
 
 .secondary {
-  background: rgba(18, 58, 115, 0.35);
+  background: rgba(255, 255, 255, 0.72);
   color: var(--text-primary);
   border-color: var(--border-strong);
   backdrop-filter: blur(8px);
 }
-.secondary:hover { border-color: var(--accent-glow); background: rgba(18, 58, 115, 0.55); }
+.secondary:hover { border-color: var(--accent-glow); background: rgba(255, 255, 255, 0.92); }
 
 .ghost {
   background: transparent;

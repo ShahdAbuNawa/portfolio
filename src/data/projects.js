@@ -31,7 +31,7 @@ export const featuredProjects = [
     lessonsLearned:
       "Refactoring large, already-shipping forecasting pages into smaller components taught me how to change structure without touching behavior — and how much a consistent feature-based layout pays off once a team of contributors starts working in the same codebase.",
     tech: ['React', 'React Router', 'Context API', 'react-i18next', 'Apache ECharts', 'RTL/i18n'],
-    links: { github: '#', demo: '#', caseStudy: '#' },
+    links: { github: 'https://github.com/FarahAlasbah/AIMOPS.git', demo: '#', caseStudy: '#' },
   },
   {
     id: 'space-haven',
@@ -51,7 +51,7 @@ export const featuredProjects = [
     ],
     tech: ['Three.js', 'JavaScript', 'AI-assisted generation'],
     result: 'Selected as one of a small number of national finalist teams in Palestine out of the full 2025 challenge cohort.',
-    links: { github: '#', demo: '#', caseStudy: '#' },
+    links: { github: 'https://github.com/TalaAF/space-habitat-game.git', demo: 'https://www.youtube.com/watch?v=nCtohr4ti0Q', caseStudy: '#' },
   },
   {
     id: 'kidzy',
@@ -72,7 +72,7 @@ export const featuredProjects = [
       { label: 'Unlockable Games', detail: 'Canvas-based mini-games unlocked through progress' },
     ],
     tech: ['Java Spring Boot', 'React.js', 'Material UI', 'React Canvas'],
-    links: { github: '#', demo: '#', caseStudy: '#' },
+    links: { caseStudy: '#' },
   },
 ];
 
@@ -82,20 +82,19 @@ export const additionalProjects = [
     name: 'E-Commerce Perfume Store',
     description: 'A responsive e-commerce storefront with a modern UI, built with HTML, CSS, and JavaScript.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    links: { github: '#', demo: '#' },
+    links: { github: 'https://github.com/ShahdAbuNawa/PerfumeStore.git', demo: 'https://shahdabunawa.github.io/PerfumeStore/index.html' },
   },
   {
     id: 'personal-portfolio',
     name: 'Personal Portfolio Site',
     description: 'An earlier personal portfolio designed and built to showcase projects and technical skills.',
     tech: ['React', 'CSS'],
-    links: { github: '#', demo: '#' },
+    links: { github: 'https://github.com/ShahdAbuNawa/portfolio.git', demo: '#' },
   },
   {
     id: 'ieeextreme',
     name: 'IEEEXtreme 18.0 & 17.0',
     description: "Competed in IEEE's global 24-hour programming competitions, solving algorithmic challenges in Python and Java.",
     tech: ['Python', 'Java', 'Algorithms'],
-    links: { github: '#' },
   },
 ];

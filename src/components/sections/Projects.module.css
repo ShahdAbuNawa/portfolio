@@ -18,7 +18,7 @@
 .filterBtn:hover { border-color: var(--border-strong); color: var(--text-primary); }
 .filterActive {
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-bright));
-  color: #051327;
+  color: #FFFFFF;
   border-color: transparent;
 }
 

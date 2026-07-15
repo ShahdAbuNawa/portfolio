@@ -1,22 +1,22 @@
 :root {
-  /* Color — Deep Systems Navy */
-  --bg-deep: #071A35;
-  --bg-mid: #0A2040;
-  --bg-panel: #0D2448;
-  --bg-elevated: #123A73;
-  --border-subtle: rgba(79, 157, 255, 0.14);
-  --border-strong: rgba(79, 157, 255, 0.32);
+  /* Color — Light Editorial Neutral */
+  --bg-deep: #F6F1E9;
+  --bg-mid: #ECEFF3;
+  --bg-panel: #FFFFFF;
+  --bg-elevated: #E4E9EF;
+  --border-subtle: rgba(16, 32, 51, 0.08);
+  --border-strong: rgba(31, 91, 99, 0.16);
 
-  --accent-primary: #1B5FBF;
-  --accent-bright: #4F9DFF;
-  --accent-glow: #5DAEFF;
+  --accent-primary: #1F5B63;
+  --accent-bright: #C26A2F;
+  --accent-glow: #7BB7A8;
 
-  --text-primary: #F4F8FD;
-  --text-secondary: #B7C4DA;
-  --text-muted: #7C8CA8;
+  --text-primary: #102033;
+  --text-secondary: #51606E;
+  --text-muted: #7B8794;
 
-  --success: #4FD1A5;
-  --warning: #FFC46B;
+  --success: #2E9D77;
+  --warning: #C9892F;
 
   /* Type */
   --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
@@ -38,8 +38,8 @@
   --radius-sm: 10px;
   --radius-md: 14px;
   --radius-lg: 18px;
-  --shadow-soft: 0 8px 30px rgba(2, 10, 26, 0.45);
-  --shadow-glow: 0 0 40px rgba(93, 174, 255, 0.18);
+  --shadow-soft: 0 8px 30px rgba(15, 23, 42, 0.08);
+  --shadow-glow: 0 0 40px rgba(31, 91, 99, 0.14);
 
   /* Layout */
   --container-w: 1180px;

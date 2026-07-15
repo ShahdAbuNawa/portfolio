@@ -12,7 +12,7 @@ const contactLinks = [
   { icon: Mail, label: profile.email, href: `mailto:${profile.email}` },
   { icon: Linkedin, label: 'LinkedIn Profile', href: profile.links.linkedin },
   { icon: Github, label: 'GitHub Profile', href: profile.links.github },
-  { icon: MapPin, label: `${profile.location} · ${profile.remote}`, href: null },
+  { icon: MapPin, label: `${profile.location} `, href: null },
 ];
 
 export default function Contact() {

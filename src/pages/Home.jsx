@@ -20,7 +20,7 @@ export default function Home() {
       <Certifications />
       <Education />
       <Achievements />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </>
   );
