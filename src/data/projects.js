@@ -31,7 +31,7 @@ export const featuredProjects = [
     lessonsLearned:
       "Refactoring large, already-shipping forecasting pages into smaller components taught me how to change structure without touching behavior — and how much a consistent feature-based layout pays off once a team of contributors starts working in the same codebase.",
     tech: ['React', 'React Router', 'Context API', 'react-i18next', 'Apache ECharts', 'RTL/i18n'],
-    links: { github: 'https://github.com/FarahAlasbah/AIMOPS.git', demo: '#', caseStudy: '#' },
+    links: { github: 'https://github.com/FarahAlasbah/AIMOPS.git', demo: 'https://youtu.be/1bFkToijUzo', caseStudy: '#' },
   },
   {
     id: 'space-haven',

@@ -125,9 +125,12 @@ export default function Hero() {
             />
             <div className={styles.ring} />
             <div className={styles.portrait}>
-              {/* Professional photo placeholder — replace src below with a real headshot */}
-              <span className={styles.portraitInitial}>{initials}</span>
-            </div>
+  <img
+    src="/profile.jpeg"
+    alt={profile.name}
+    className={styles.portraitImg}
+  />
+</div>
           </motion.div>
         </div>
       </Container>

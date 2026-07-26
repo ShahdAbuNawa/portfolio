@@ -114,3 +114,9 @@
   .grid { grid-template-columns: 1fr; text-align: left; }
   .portraitWrap { order: -1; width: 220px; margin-bottom: 12px; }
 }
+.portraitImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
