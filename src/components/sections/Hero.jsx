@@ -88,7 +88,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
             >
-              <Button as="a" href="/resume.pdf" download icon={Download}>Download Resume</Button>
+              <Button as="a" href="/Resume_Shahd_Abu_Nawa.pdf" download icon={Download}>Download Resume</Button>
               <Button variant="secondary" as="a" href="#contact" icon={Mail}
                 onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 Contact Me

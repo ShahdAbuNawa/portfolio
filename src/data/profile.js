@@ -20,7 +20,7 @@ export const profile = {
 
 export const education = {
   degree: 'B.S. in Software Engineering',
-  honors: null, // not stated on resume — add here if applicable, e.g. 'Graduated with Honors'
+  honors: 'Graduated with Honors', // not stated on resume — add here if applicable, e.g. 'Graduated with Honors'
   school: 'Bethlehem University',
   date: 'June 2026',
   coursework: [
